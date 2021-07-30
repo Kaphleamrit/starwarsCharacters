@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container, Button, Row } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 import BackIcon from '../assets/back.png';
 
 const DetailsPage = ({ resolvedData, id, setActivePage }) => {
