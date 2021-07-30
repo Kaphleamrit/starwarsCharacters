@@ -20,7 +20,7 @@ const DetailsPage = ({ resolvedData, id, setActivePage }) => {
               fontSize: '1.5rem',
               color: '#bbbbbb'
             }}
-       > <Button class = "btn btn-outline-dark" size = "sm"
+       > <button className = "btn btn-outline-dark" size = "sm"
        style = {{
          width: '5em',
          position: "absolute",
@@ -29,7 +29,7 @@ const DetailsPage = ({ resolvedData, id, setActivePage }) => {
        }}
        onClick={() => setActivePage("people")}>
          <img src = {BackIcon} alt = "back icon"/>
-         </Button>
+         </button>
         
             <Card.Title 
             style = {{
