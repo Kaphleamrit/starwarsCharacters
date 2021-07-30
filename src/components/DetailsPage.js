@@ -1,12 +1,12 @@
 import React from "react";
 import { Card, Container, Button, Row } from "react-bootstrap";
+import BackIcon from '../assets/back.png';
 
 const DetailsPage = ({ resolvedData, id, setActivePage }) => {
   const personObj = resolvedData.results[id];
   return (
     <Container>
       <Row>
-        <Button onClick={() => setActivePage("people")}>back</Button>
         <Card style={{ 
           height: "90vh",
           boxShadow: '2px 2px 4px black',
@@ -20,7 +20,18 @@ const DetailsPage = ({ resolvedData, id, setActivePage }) => {
               fontSize: '1.5rem',
               color: '#bbbbbb'
             }}
-          >
+       > <Button class = "btn btn-outline-dark" size = "sm"
+       style = {{
+         width: '5em',
+         position: "absolute",
+         top: '5px',
+         left: '5px'
+
+       }}
+       onClick={() => setActivePage("people")}>
+         <img src = {BackIcon} alt = "back icon"/>
+         </Button>
+        
             <Card.Title 
             style = {{
               fontSize: '1.8rem',
