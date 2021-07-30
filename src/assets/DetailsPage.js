@@ -26,7 +26,6 @@ const DetailsPage = ({ resolvedData, id, setActivePage }) => {
          position: "absolute",
          top: '5px',
          left: '5px'
-
        }}
        onClick={() => setActivePage("people")}>
          <img src = {BackIcon} alt = "back icon"/>
