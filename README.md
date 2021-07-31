@@ -4,17 +4,13 @@
 
 ## Installation
 
-- open your terminal and do
+- Run the following commands in the terminal
 
 ```bash
 git clone https://github.com/Kaphleamrit/listPeopleApp.git
-```
-
-- after cloning type
-
-```bash
 cd listPeopleApp
 npm install
+npm start
 ```
 ## GIF
 ![](src/assets/gif.gif)
