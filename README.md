@@ -14,12 +14,12 @@ npm start
 ![](src/assets/gif.gif)
 
 
-## Screenshots
+<!-- ## Screenshots
 ![](src/assets/ss1.png)
 ![](src/assets/ss2.png)
 ![](src/assets/ss3.png)
 ![](src/assets/ss4.png)
-![](src/assets/ss5.png) ![](src/assets/ss6.png) 
+![](src/assets/ss5.png) ![](src/assets/ss6.png)  -->
 
 
 ## Deployment
